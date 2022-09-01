@@ -7,16 +7,8 @@ int C = int.Parse(Console.ReadLine());
 
 int max = A;
 
-if (A > max)
-{
-    max = A;
-}
-else if (B > max)
-{
-    max = B;
-}
-else if (C > max)
-{
-    max = C;
-}
+if (B > max) max=B;
+if (C > max) max=C;
+
+Console.Write("max= ");
 Console.WriteLine(max);
