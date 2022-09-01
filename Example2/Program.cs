@@ -10,5 +10,4 @@ int max = A;
 if (B > max) max=B;
 if (C > max) max=C;
 
-Console.Write("max= ");
 Console.WriteLine(max);
