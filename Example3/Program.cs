@@ -2,9 +2,9 @@
 int i = int.Parse (Console.ReadLine());
 if (i%2==0)
 {
-    Console.Write("Ваше число чётное!");
+    Console.Write("Да");
 }
 else 
 {
-    Console.Write("Ваше число нечётное!");
+    Console.Write("Нет");
 }
